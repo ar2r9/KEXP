@@ -1,0 +1,117 @@
+
+@font-face {
+    src: url(Montserrat.ttf);
+    font-family: 'Suisse';
+    font-weight: normal;
+  }
+  
+  @font-face {
+    src: url(Montserrat.ttf
+  );
+    font-family: 'Suisse';
+    font-weight: bold;
+  }
+  
+  html {
+    height: 100%;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  body {
+    width: 100%;
+    background-color: #323131;
+    background-image: url("KEXPIMG/wall.jpg");
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1270px;
+    color: white;
+    position: relative;
+    margin: 0 auto;
+    font-family: 'Suisse';
+    box-sizing: border-box;
+    padding: 30px;
+  }
+
+  /* The sidebar menu */
+.sidenav { 
+  margin-left: 30px;
+  height: auto; /* Full-height: remove this if you want "auto" height */
+  width: 20%; /* Set the width of the sidebar */
+  position:absolute; /* Fixed Sidebar (stay in place on scroll) */
+  left: 0;
+  background-color: #111; /* Black */
+  padding-top: 20px;
+  max-height: 800px;
+}
+
+  .header {
+    justify-content: center;
+    display: flex;
+    height: 10%;
+    width: 98%;
+    background-color: hsl(43, 100%, 43%);
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 50px;
+    padding-top: 30px;
+    margin: 0;
+  }
+  
+  .button {
+    width: 130px;
+    height: 40px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+    display: none;
+  }
+  
+  .button:hover {
+    opacity: 0.5;
+  }
+
+  .image {
+    width: 100%;
+    display: block;
+    margin: 10px 0 50px;
+  }
+  
+  .advice {
+    font-size: 23px;
+    font-weight: bold;
+    line-height: 1.1;
+    margin-left: 10px;
+    margin-bottom: 30px;
+  }
+  
+  
+  .phraseone {
+    font-size: 23px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  .backgroundimg {
+    background-image: url("KEXPIMG/wall.jpg");
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .main {
+    margin-top: 1%;
+    margin-left: 23%; 
+  }
+  .kexpinfo {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 5px;
+  }
